@@ -14,6 +14,7 @@ Java Performance: The Definitive Guide <br />
 [如何监控Java垃圾回收机制](http://www.importnew.com/2057.html) <br />
 [如何优化Java垃圾回收机制](http://www.importnew.com/3146.html) <br />
 [Apache的MaxClients参数详解及其在Tomcat执行FullGC时的影响](http://www.importnew.com/3151.html) <br />
+[The Principles of Java Application Performance Tuning](http://www.cubrid.org/blog/dev-platform/the-principles-of-java-application-performance-tuning/) <br />
 
 #### Java垃圾回收精粹
 [http://www.importnew.com/8335.html](http://www.importnew.com/8335.html) <br />

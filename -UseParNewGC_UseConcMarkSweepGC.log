@@ -1,0 +1,45 @@
+2014-07-01T09:30:28.392-0800: 0.304: Application time: 0.2227860 seconds
+2014-07-01T09:30:28.392-0800: 0.304: [GC (Allocation Failure)2014-07-01T09:30:28.393-0800: 0.304: [DefNew: 68160K->8512K(76672K), 0.2047820 secs] 68160K->56086K(515776K), 0.2048730 secs] [Times: user=0.19 sys=0.02, real=0.20 secs] 
+2014-07-01T09:30:28.597-0800: 0.509: Total time for which application threads were stopped: 0.2049870 seconds
+2014-07-01T09:30:28.656-0800: 0.568: Application time: 0.0589340 seconds
+2014-07-01T09:30:28.656-0800: 0.568: [GC (Allocation Failure)2014-07-01T09:30:28.656-0800: 0.568: [DefNew: 76672K->8512K(76672K), 0.2457760 secs] 124246K->120151K(515776K), 0.2458380 secs] [Times: user=0.22 sys=0.03, real=0.25 secs] 
+2014-07-01T09:30:28.902-0800: 0.814: Total time for which application threads were stopped: 0.2459700 seconds
+2014-07-01T09:30:28.956-0800: 0.868: Application time: 0.0541270 seconds
+2014-07-01T09:30:28.956-0800: 0.868: [GC (Allocation Failure)2014-07-01T09:30:28.957-0800: 0.868: [DefNew: 76672K->8512K(76672K), 0.2884500 secs] 188311K->188309K(515776K), 0.2885230 secs] [Times: user=0.27 sys=0.02, real=0.29 secs] 
+2014-07-01T09:30:29.245-0800: 1.157: Total time for which application threads were stopped: 0.2886370 seconds
+2014-07-01T09:30:29.305-0800: 1.217: Application time: 0.0603120 seconds
+2014-07-01T09:30:29.305-0800: 1.217: [GC (Allocation Failure)2014-07-01T09:30:29.305-0800: 1.217: [DefNew: 76672K->8512K(76672K), 0.2587550 secs] 256469K->256468K(515776K), 0.2588150 secs] [Times: user=0.23 sys=0.02, real=0.26 secs] 
+2014-07-01T09:30:29.564-0800: 1.476: Total time for which application threads were stopped: 0.2589240 seconds
+2014-07-01T09:30:29.564-0800: 1.476: Application time: 0.0001060 seconds
+2014-07-01T09:30:29.564-0800: 1.476: [GC (CMS Initial Mark) [1 CMS-initial-mark: 247956K(439104K)] 257681K(515776K), 0.0069120 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2014-07-01T09:30:29.571-0800: 1.483: Total time for which application threads were stopped: 0.0070490 seconds
+2014-07-01T09:30:29.572-0800: 1.483: [CMS-concurrent-mark-start]
+2014-07-01T09:30:29.632-0800: 1.543: Application time: 0.0601170 seconds
+2014-07-01T09:30:29.632-0800: 1.543: [GC (Allocation Failure)2014-07-01T09:30:29.632-0800: 1.544: [DefNew: 76672K->8512K(76672K), 0.2942310 secs] 324628K->324627K(515776K), 0.2943000 secs] [Times: user=0.27 sys=0.02, real=0.29 secs] 
+2014-07-01T09:30:29.926-0800: 1.838: Total time for which application threads were stopped: 0.2944210 seconds
+2014-07-01T09:30:29.971-0800: 1.883: Application time: 0.0454310 seconds
+2014-07-01T09:30:29.972-0800: 1.883: [Full GC (System.gc())2014-07-01T09:30:29.972-0800: 1.883: [CMS2014-07-01T09:30:30.238-0800: 2.149: [CMS-concurrent-mark: 0.371/0.666 secs] [Times: user=0.74 sys=0.03, real=0.66 secs] 
+ (concurrent mode interrupted): 316115K->368261K(439104K), 1.3023970 secs] 376767K->368261K(515776K), [CMS Perm : 2983K->2982K(21248K)], 1.3024770 secs] [Times: user=1.28 sys=0.02, real=1.30 secs] 
+2014-07-01T09:30:31.274-0800: 3.186: Total time for which application threads were stopped: 1.3026030 seconds
+2014-07-01T09:30:31.414-0800: 3.326: Application time: 0.1404060 seconds
+2014-07-01T09:30:31.415-0800: 3.326: [GC (Allocation Failure)2014-07-01T09:30:31.415-0800: 3.326: [DefNew: 68160K->0K(76672K), 0.0353670 secs] 436421K->368261K(515776K), 0.0354510 secs] [Times: user=0.04 sys=0.00, real=0.04 secs] 
+2014-07-01T09:30:31.450-0800: 3.362: Total time for which application threads were stopped: 0.0355740 seconds
+2014-07-01T09:30:31.450-0800: 3.362: Application time: 0.0000810 seconds
+2014-07-01T09:30:31.450-0800: 3.362: [GC (CMS Initial Mark) [1 CMS-initial-mark: 368261K(439104K)] 369574K(515776K), 0.0001250 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2014-07-01T09:30:31.450-0800: 3.362: Total time for which application threads were stopped: 0.0002420 seconds
+2014-07-01T09:30:31.450-0800: 3.362: [CMS-concurrent-mark-start]
+2014-07-01T09:30:31.577-0800: 3.489: Application time: 0.1265770 seconds
+2014-07-01T09:30:31.577-0800: 3.489: [GC (Allocation Failure)2014-07-01T09:30:31.577-0800: 3.489: [DefNew: 68160K->0K(76672K), 0.0323830 secs] 436421K->368261K(515776K), 0.0324470 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+2014-07-01T09:30:31.609-0800: 3.521: Total time for which application threads were stopped: 0.0325630 seconds
+2014-07-01T09:30:31.678-0800: 3.590: Application time: 0.0684030 seconds
+2014-07-01T09:30:31.678-0800: 3.590: [Full GC (System.gc())2014-07-01T09:30:31.678-0800: 3.590: [CMS2014-07-01T09:30:31.754-0800: 3.666: [CMS-concurrent-mark: 0.271/0.303 secs] [Times: user=0.50 sys=0.01, real=0.30 secs] 
+ (concurrent mode interrupted): 368261K->133945K(439104K), 0.5464080 secs] 410860K->133945K(515776K), [CMS Perm : 2987K->2987K(21248K)], 0.5464800 secs] [Times: user=0.54 sys=0.00, real=0.55 secs] 
+2014-07-01T09:30:32.225-0800: 4.136: Total time for which application threads were stopped: 0.5466270 seconds
+Heap
+ def new generation   total 76672K, used 1820K [0x00000007dae00000, 0x00000007e0130000, 0x00000007e0130000)
+  eden space 68160K,   2% used [0x00000007dae00000, 0x00000007dafc70b8, 0x00000007df090000)
+  from space 8512K,   0% used [0x00000007df8e0000, 0x00000007df8e0000, 0x00000007e0130000)
+  to   space 8512K,   0% used [0x00000007df090000, 0x00000007df090000, 0x00000007df8e0000)
+ concurrent mark-sweep generation total 439104K, used 133945K [0x00000007e0130000, 0x00000007fae00000, 0x00000007fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 2993K [0x00000007fae00000, 0x00000007fc2c0000, 0x0000000800000000)
+2014-07-01T09:30:32.225-0800: 4.137: Application time: 0.0006200 seconds

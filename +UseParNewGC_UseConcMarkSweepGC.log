@@ -1,0 +1,33 @@
+2014-07-01T09:31:09.332-0800: 0.394: Application time: 0.3224420 seconds
+2014-07-01T09:31:09.332-0800: 0.394: [GC (Allocation Failure)2014-07-01T09:31:09.332-0800: 0.394: [ParNew: 139776K->17472K(157248K), 0.7334700 secs] 139776K->120467K(506816K), 0.7335660 secs] [Times: user=1.73 sys=0.29, real=0.73 secs] 
+2014-07-01T09:31:10.066-0800: 1.128: Total time for which application threads were stopped: 0.7336920 seconds
+2014-07-01T09:31:10.192-0800: 1.254: Application time: 0.1263280 seconds
+2014-07-01T09:31:10.192-0800: 1.254: [GC (Allocation Failure)2014-07-01T09:31:10.192-0800: 1.254: [ParNew: 157248K->17472K(157248K), 0.2860400 secs] 260243K->247790K(506816K), 0.2861190 secs] [Times: user=0.96 sys=0.07, real=0.28 secs] 
+2014-07-01T09:31:10.478-0800: 1.540: Total time for which application threads were stopped: 0.2862420 seconds
+2014-07-01T09:31:10.478-0800: 1.540: Application time: 0.0000850 seconds
+2014-07-01T09:31:10.478-0800: 1.541: [GC (CMS Initial Mark) [1 CMS-initial-mark: 230318K(349568K)] 250344K(506816K), 0.0091560 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2014-07-01T09:31:10.488-0800: 1.550: Total time for which application threads were stopped: 0.0093040 seconds
+2014-07-01T09:31:10.488-0800: 1.550: [CMS-concurrent-mark-start]
+2014-07-01T09:31:10.593-0800: 1.655: Application time: 0.1056960 seconds
+2014-07-01T09:31:10.593-0800: 1.656: [Full GC (System.gc())2014-07-01T09:31:10.593-0800: 1.656: [CMS2014-07-01T09:31:10.727-0800: 1.789: [CMS-concurrent-mark: 0.239/0.239 secs] [Times: user=0.34 sys=0.01, real=0.24 secs] 
+ (concurrent mode interrupted): 230318K->349567K(349568K), 1.0834150 secs] 370394K->368242K(506816K), [CMS Perm : 2986K->2985K(21248K)], 1.0834910 secs] [Times: user=1.04 sys=0.04, real=1.08 secs] 
+2014-07-01T09:31:11.677-0800: 2.739: Total time for which application threads were stopped: 1.0836190 seconds
+2014-07-01T09:31:12.017-0800: 3.079: Application time: 0.3400790 seconds
+2014-07-01T09:31:12.017-0800: 3.079: [Full GC (Allocation Failure)2014-07-01T09:31:12.017-0800: 3.079: [CMS: 349567K->187289K(349568K), 0.6029320 secs] 506815K->187289K(506816K), [CMS Perm : 2987K->2987K(21248K)], 0.6030060 secs] [Times: user=0.60 sys=0.00, real=0.61 secs] 
+2014-07-01T09:31:12.620-0800: 3.682: Total time for which application threads were stopped: 0.6031380 seconds
+2014-07-01T09:31:12.620-0800: 3.682: Application time: 0.0000790 seconds
+2014-07-01T09:31:12.620-0800: 3.682: [GC (CMS Initial Mark) [1 CMS-initial-mark: 187289K(349568K)] 189854K(506816K), 0.0001070 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2014-07-01T09:31:12.620-0800: 3.683: Total time for which application threads were stopped: 0.0002080 seconds
+2014-07-01T09:31:12.620-0800: 3.683: [CMS-concurrent-mark-start]
+2014-07-01T09:31:12.681-0800: 3.743: Application time: 0.0609240 seconds
+2014-07-01T09:31:12.681-0800: 3.744: [Full GC (System.gc())2014-07-01T09:31:12.681-0800: 3.744: [CMS2014-07-01T09:31:12.786-0800: 3.848: [CMS-concurrent-mark: 0.165/0.165 secs] [Times: user=0.22 sys=0.00, real=0.16 secs] 
+ (concurrent mode interrupted): 187289K->133942K(349568K), 0.5024750 secs] 228326K->133942K(506816K), [CMS Perm : 2987K->2987K(21248K)], 0.5025510 secs] [Times: user=0.50 sys=0.00, real=0.50 secs] 
+2014-07-01T09:31:13.184-0800: 4.246: Total time for which application threads were stopped: 0.5027040 seconds
+Heap
+ par new generation   total 157248K, used 1397K [0x00000007dae00000, 0x00000007e58a0000, 0x00000007e58a0000)
+  eden space 139776K,   1% used [0x00000007dae00000, 0x00000007daf5d7d0, 0x00000007e3680000)
+  from space 17472K,   0% used [0x00000007e3680000, 0x00000007e3680000, 0x00000007e4790000)
+  to   space 17472K,   0% used [0x00000007e4790000, 0x00000007e4790000, 0x00000007e58a0000)
+ concurrent mark-sweep generation total 349568K, used 133942K [0x00000007e58a0000, 0x00000007fae00000, 0x00000007fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 2993K [0x00000007fae00000, 0x00000007fc2c0000, 0x0000000800000000)
+2014-07-01T09:31:13.185-0800: 4.247: Application time: 0.0006670 seconds

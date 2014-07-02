@@ -1,0 +1,26 @@
+2014-07-01T09:26:35.461-0800: 0.412: Application time: 0.3379180 seconds
+2014-07-01T09:26:35.461-0800: 0.412: [GC (Allocation Failure)2014-07-01T09:26:35.461-0800: 0.412: [DefNew: 139776K->17471K(157248K), 0.2362020 secs] 139776K->120567K(506816K), 0.2362800 secs] [Times: user=0.20 sys=0.04, real=0.23 secs] 
+2014-07-01T09:26:35.698-0800: 0.648: Total time for which application threads were stopped: 0.2364070 seconds
+2014-07-01T09:26:35.823-0800: 0.774: Application time: 0.1252510 seconds
+2014-07-01T09:26:35.823-0800: 0.774: [GC (Allocation Failure)2014-07-01T09:26:35.823-0800: 0.774: [DefNew: 157247K->17472K(157248K), 0.3164600 secs] 260343K->252149K(506816K), 0.3165180 secs] [Times: user=0.27 sys=0.04, real=0.31 secs] 
+2014-07-01T09:26:36.139-0800: 1.090: Total time for which application threads were stopped: 0.3166320 seconds
+2014-07-01T09:26:36.235-0800: 1.186: Application time: 0.0955300 seconds
+2014-07-01T09:26:36.235-0800: 1.186: [Full GC (System.gc())2014-07-01T09:26:36.235-0800: 1.186: [Tenured: 234677K->349568K(349568K), 0.8184420 secs] 370491K->368257K(506816K), [Perm : 2982K->2982K(21248K)], 0.8185750 secs] [Times: user=0.74 sys=0.04, real=0.82 secs] 
+2014-07-01T09:26:37.054-0800: 2.005: Total time for which application threads were stopped: 0.8187430 seconds
+2014-07-01T09:26:37.390-0800: 2.341: Application time: 0.3362850 seconds
+2014-07-01T09:26:37.390-0800: 2.341: [Full GC (Allocation Failure)2014-07-01T09:26:37.390-0800: 2.341: [Tenured: 349568K->207200K(349568K), 0.4849640 secs] 506815K->207200K(506816K), [Perm : 2986K->2986K(21248K)], 0.4850310 secs] [Times: user=0.48 sys=0.00, real=0.48 secs] 
+2014-07-01T09:26:37.875-0800: 2.826: Total time for which application threads were stopped: 0.4851550 seconds
+2014-07-01T09:26:37.941-0800: 2.892: Application time: 0.0656790 seconds
+2014-07-01T09:26:37.941-0800: 2.892: [Full GC (System.gc())2014-07-01T09:26:37.941-0800: 2.892: [Tenured: 207200K->149664K(349568K), 0.3205590 secs] 251621K->149664K(506816K), [Perm : 2986K->2986K(21248K)], 0.3206270 secs] [Times: user=0.32 sys=0.01, real=0.32 secs] 
+2014-07-01T09:26:38.262-0800: 3.212: Total time for which application threads were stopped: 0.3207500 seconds
+Heap
+ def new generation   total 157248K, used 1397K [0x00000007dae00000, 0x00000007e58a0000, 0x00000007e58a0000)
+  eden space 139776K,   1% used [0x00000007dae00000, 0x00000007daf5d7d0, 0x00000007e3680000)
+  from space 17472K,   0% used [0x00000007e3680000, 0x00000007e3680000, 0x00000007e4790000)
+  to   space 17472K,   0% used [0x00000007e4790000, 0x00000007e4790000, 0x00000007e58a0000)
+ tenured generation   total 349568K, used 149664K [0x00000007e58a0000, 0x00000007fae00000, 0x00000007fae00000)
+   the space 349568K,  42% used [0x00000007e58a0000, 0x00000007eeac83b0, 0x00000007eeac8400, 0x00000007fae00000)
+ compacting perm gen  total 21248K, used 2993K [0x00000007fae00000, 0x00000007fc2c0000, 0x0000000800000000)
+   the space 21248K,  14% used [0x00000007fae00000, 0x00000007fb0ec738, 0x00000007fb0ec800, 0x00000007fc2c0000)
+No shared spaces configured.
+2014-07-01T09:26:38.262-0800: 3.213: Application time: 0.0006000 seconds

@@ -1,0 +1,30 @@
+2014-07-01T09:28:28.376-0800: 0.387: Application time: 0.3160360 seconds
+2014-07-01T09:28:28.376-0800: 0.387: [GC (Allocation Failure) [PSYoungGen: 132096K->21488K(153600K)] 132096K->114104K(503296K), 0.1203490 secs] [Times: user=0.39 sys=0.06, real=0.12 secs] 
+2014-07-01T09:28:28.496-0800: 0.508: Total time for which application threads were stopped: 0.1205220 seconds
+2014-07-01T09:28:28.623-0800: 0.634: Application time: 0.1267650 seconds
+2014-07-01T09:28:28.623-0800: 0.634: [GC (Allocation Failure) [PSYoungGen: 153584K->21488K(153600K)] 246200K->234448K(503296K), 0.1766020 secs] [Times: user=0.55 sys=0.08, real=0.18 secs] 
+2014-07-01T09:28:28.800-0800: 0.811: Total time for which application threads were stopped: 0.1767340 seconds
+2014-07-01T09:28:28.926-0800: 0.937: Application time: 0.1263840 seconds
+2014-07-01T09:28:28.926-0800: 0.938: [GC (Allocation Failure) [PSYoungGen: 153584K->21488K(153600K)] 366544K->367160K(503296K), 0.3570910 secs] [Times: user=1.14 sys=0.09, real=0.36 secs] 
+2014-07-01T09:28:29.284-0800: 1.295: [Full GC (Ergonomics) [PSYoungGen: 21488K->16346K(153600K)] [ParOldGen: 345672K->349319K(349696K)] 367160K->365665K(503296K) [PSPermGen: 2985K->2984K(21504K)], 2.9091780 secs] [Times: user=9.52 sys=0.10, real=2.91 secs] 
+2014-07-01T09:28:32.193-0800: 4.204: Total time for which application threads were stopped: 3.2665390 seconds
+2014-07-01T09:28:32.196-0800: 4.207: Application time: 0.0029150 seconds
+2014-07-01T09:28:32.196-0800: 4.207: [Full GC (System.gc()) [PSYoungGen: 22208K->18915K(153600K)] [ParOldGen: 349319K->349319K(349696K)] 371528K->368235K(503296K) [PSPermGen: 2984K->2984K(21504K)], 0.9100490 secs] [Times: user=3.20 sys=0.03, real=0.91 secs] 
+2014-07-01T09:28:33.106-0800: 5.117: Total time for which application threads were stopped: 0.9102180 seconds
+2014-07-01T09:28:33.303-0800: 5.315: Application time: 0.1974330 seconds
+2014-07-01T09:28:33.304-0800: 5.315: [Full GC (Ergonomics) [PSYoungGen: 132096K->0K(153600K)] [ParOldGen: 349319K->220854K(349696K)] 481415K->220854K(503296K) [PSPermGen: 2985K->2985K(21504K)], 0.7911930 secs] [Times: user=2.58 sys=0.03, real=0.79 secs] 
+2014-07-01T09:28:34.095-0800: 6.106: Total time for which application threads were stopped: 0.7913420 seconds
+2014-07-01T09:28:34.190-0800: 6.201: Application time: 0.0952800 seconds
+2014-07-01T09:28:34.190-0800: 6.201: [GC (System.gc()) [PSYoungGen: 65308K->0K(153600K)] 286163K->220854K(503296K), 0.0209650 secs] [Times: user=0.08 sys=0.00, real=0.02 secs] 
+2014-07-01T09:28:34.211-0800: 6.222: [Full GC (System.gc()) [PSYoungGen: 0K->0K(153600K)] [ParOldGen: 220854K->133938K(349696K)] 220854K->133938K(503296K) [PSPermGen: 2985K->2985K(21504K)], 0.5858970 secs] [Times: user=2.10 sys=0.01, real=0.58 secs] 
+2014-07-01T09:28:34.797-0800: 6.808: Total time for which application threads were stopped: 0.6071040 seconds
+Heap
+ PSYoungGen      total 153600K, used 2642K [0x00000007f5500000, 0x0000000800000000, 0x0000000800000000)
+  eden space 132096K, 2% used [0x00000007f5500000,0x00000007f5794870,0x00000007fd600000)
+  from space 21504K, 0% used [0x00000007feb00000,0x00000007feb00000,0x0000000800000000)
+  to   space 21504K, 0% used [0x00000007fd600000,0x00000007fd600000,0x00000007feb00000)
+ ParOldGen       total 349696K, used 133938K [0x00000007dff80000, 0x00000007f5500000, 0x00000007f5500000)
+  object space 349696K, 38% used [0x00000007dff80000,0x00000007e824c8e0,0x00000007f5500000)
+ PSPermGen       total 21504K, used 2992K [0x00000007dad80000, 0x00000007dc280000, 0x00000007dff80000)
+  object space 21504K, 13% used [0x00000007dad80000,0x00000007db06c368,0x00000007dc280000)
+2014-07-01T09:28:34.798-0800: 6.809: Application time: 0.0005110 seconds

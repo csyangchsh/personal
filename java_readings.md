@@ -4,7 +4,7 @@
 
 ### Books
 
-Java性能调优权威指南 <br />
+Java性能优化权威指南 <br />
 Java Performance: The Definitive Guide <br />
 
 ### Articles
@@ -32,6 +32,9 @@ Java Performance: The Definitive Guide <br />
 [JVM实用参数（七）CMS收集器](http://ifeve.com/useful-jvm-flags-part-7-cms-collector/) <br />
 [JVM实用参数（八）GC日志](http://ifeve.com/useful-jvm-flags-part-8-gc-logging/) <br />
 
+#### [Alexey Ragozin](http://blog.ragozin.info/p/garbage-collection.html)
+
+[UNDERSTANDING THE OUTOFMEMORYERROR](https://plumbr.eu/blog/understanding-java-lang-outofmemoryerror) <br />
 [如何估算内存消耗](http://www.importnew.com/10570.html) <br />
 [JVM Performance Magic Tricks](http://www.takipiblog.com/2013/05/30/jvm-performance-magic-tricks/) <br />
 [DEBUGGING TO UNDERSTAND FINALIZERS](https://plumbr.eu/blog/debugging-to-understand-finalizer) <br />
@@ -82,6 +85,8 @@ Java Performance: The Definitive Guide <br />
 ](http://java-performance.info/updating-final-and-static-final-fields/) <br />
 [Forbidden Java actions: not declaring a checked exception; avoiding a constructor while creating an object
 ](http://java-performance.info/forbidden-java-actions-not-declaring-a-checked-exception-avoiding-a-constructor-while-creating-an-object/) <br />
+[Java程序的日志](http://hugozhu.myalert.info/2013/02/28/logging-in-java.html) <br />
+[最佳日志实践](http://www.bitstech.net/2014/01/07/log-best-practice/) <br />
 
 ## Netty
 

@@ -101,7 +101,7 @@
 
 Full GC中值得重点关注的是垃圾收集前老年代和永久代的占用量。当老年代或永久代的占用量接近其容量时都会触发Full GC。
 
-##Reference
+## References
 
 Java性能优化权威指南 <br />
 Pierre-Hugues Charbonneau's [verbosegc output tutorial - Java 7](http://javaeesupportpatterns.blogspot.de/2011/10/verbosegc-output-tutorial-java-7.html) 

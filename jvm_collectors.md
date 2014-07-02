@@ -100,7 +100,7 @@ Todo
 ## References
 
 Java性能优化权威指南 <br />
-[JVM内存管理：深入垃圾收集器与内存分配策略](http://hllvm.group.iteye.com/group/wiki/2859-JVM)
+[JVM内存管理：深入垃圾收集器与内存分配策略](http://hllvm.group.iteye.com/group/wiki/2859-JVM) <br />
 [成为JavaGC专家Part I — 深入浅出Java垃圾回收机制](http://www.importnew.com/1993.html)
 
 

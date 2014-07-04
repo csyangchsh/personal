@@ -5,6 +5,8 @@
 * [常用的Hotspot JVM Options](jvm_options.md)
 * [性能监控基本概念](性能监控基础.md)
 * [理解Hotspot JVM GC Log](understanding_jvm_gc_log.md)
+* Better code
+	* [String](better_code_-_string.md)
 
 ##试验环境
 

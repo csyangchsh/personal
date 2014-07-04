@@ -1,23 +1,5 @@
 # Hotspot JVM GC Log
 
-## 重要的GC数据
-
-* 当前使用的垃圾收集器
-* Java Heap的大小
-* 新生代和老年代的大小
-* 永久代的大小
-* Minor GC的持续时间
-* Minor GC的频率
-* Minor GC的空间回收量
-* Full GC的持续时间
-* Full GC的频率
-* 每个并发垃圾收集周期内的空间回收量
-* 垃圾收集前后Java Heap的占用量
-* 垃圾收集前后新生代和老年代的占用量
-* 垃圾收集前后永久代的占用量
-* 是否老年代或永久代的占用触发了Full GC
-* 应用是否显示调用了System.gc()
-
 ## 测试使用的JVM Options
 
 -XX:+PrintGCDetails <br />

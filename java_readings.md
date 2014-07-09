@@ -40,13 +40,13 @@ Java Performance: The Definitive Guide <br />
 [DEBUGGING TO UNDERSTAND FINALIZERS](https://plumbr.eu/blog/debugging-to-understand-finalizer) <br />
 [java内存模型详解](http://kenwublog.com/explain-java-memory-model-in-detail) <br />
 [happens-before俗解](http://ifeve.com/easy-happens-before/) <br />
+[OOM](https://plumbr.eu/outofmemoryerror)
 
 ## Java
 
 [java平台统一异常框架的设计与实现](http://blog.csdn.net/snow_fox_yaya/article/details/1823205) <br />
 [10个精妙的Java编码最佳实践](http://www.importnew.com/10138.html) <br />
 [减少GC开销的5个编码技巧](http://www.importnew.com/10472.html) <br />
-[使用Spring跟踪应用异常](http://www.importnew.com/11978.html) <br />
 [Java程序员们最常犯的10个错误](http://www.importnew.com/12074.html) <br />
 [面向GC的Java编程](http://blog.hesey.net/2014/05/gc-oriented-java-programming.html) <br />
 
@@ -86,7 +86,9 @@ Java Performance: The Definitive Guide <br />
 [Forbidden Java actions: not declaring a checked exception; avoiding a constructor while creating an object
 ](http://java-performance.info/forbidden-java-actions-not-declaring-a-checked-exception-avoiding-a-constructor-while-creating-an-object/) <br />
 [Java程序的日志](http://hugozhu.myalert.info/2013/02/28/logging-in-java.html) <br />
-[最佳日志实践](http://www.bitstech.net/2014/01/07/log-best-practice/) <br />
+[最佳日志实践](http://www.bitstech.net/2014/01/07/log-best-practice/)
+****
+[Baeldung Blog](http://www.baeldung.com/) <br />
 
 ## Netty
 

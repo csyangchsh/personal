@@ -87,8 +87,6 @@ Java Performance: The Definitive Guide <br />
 ](http://java-performance.info/forbidden-java-actions-not-declaring-a-checked-exception-avoiding-a-constructor-while-creating-an-object/) <br />
 [Java程序的日志](http://hugozhu.myalert.info/2013/02/28/logging-in-java.html) <br />
 [最佳日志实践](http://www.bitstech.net/2014/01/07/log-best-practice/)
-****
-[Baeldung Blog](http://www.baeldung.com/) <br />
 
 ## Netty
 
@@ -129,4 +127,4 @@ Improving the performance of the Spring-Petclinic sample application [1](http://
 
 [性能优化攻略](http://coolshell.cn/articles/7490.html) <br />
 [面向程序员的数据库访问性能优化法则](http://blog.csdn.net/yzsind/article/details/6059209) <br />
-
+[Spring/Hibernate应用性能调优](http://www.importnew.com/12314.html) <br />

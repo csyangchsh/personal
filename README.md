@@ -11,11 +11,16 @@
 	* [String](better_code_-_string.md)
 	* [Arraylist](arraylist.md)
 	
+## App Development
+
+* [应用开发阅读资料](readings_of_app_development.md)
+	
 ## SQL Server
 
 * [Health check](sql_server_health_check.md)
 * [Transaction](sql_server_事务.md)
 * [Lock](sql_server_锁.md)
+* [查询计划](sql_sever查询计划)
 
 ##试验环境
 

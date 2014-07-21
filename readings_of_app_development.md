@@ -16,3 +16,5 @@
 [使用Spring跟踪应用异常](http://www.importnew.com/11978.html) <br />
 [Spring @Model ](http://www.intertech.com/Blog/understanding-spring-mvc-model-and-session-attributes/) <br />
 [Flexibility with Spring’s cache abstraction](http://altfatterz.blogspot.ro/2014/06/flexibility-with-springs-cache.html) <br />
+[Spring @Transactional工作原理](http://www.importnew.com/12300.html) <br />
+[Hibernate调试——定位查询源头](http://www.importnew.com/12303.html) <br />

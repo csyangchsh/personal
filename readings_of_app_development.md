@@ -9,6 +9,7 @@
 * [Captain Debug's Blog](http://www.captaindebug.com/) Spring
 * [Petri Kainulainen](http://www.petrikainulainen.net/) Spring
 * [codeleak.pl](http://blog.codeleak.pl/) Spring
+
 ****
 [**Microservices**](http://www.mattstine.com/microservices)
  

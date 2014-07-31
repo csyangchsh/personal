@@ -14,6 +14,7 @@
 ## App Development
 
 * [应用开发阅读资料](readings_of_app_development.md)
+* [Hibernate note](hibernate_note.md)
 	
 ## SQL Server
 

@@ -19,3 +19,6 @@
 [Flexibility with Spring’s cache abstraction](http://altfatterz.blogspot.ro/2014/06/flexibility-with-springs-cache.html) <br />
 [Spring @Transactional工作原理](http://www.importnew.com/12300.html) <br />
 [Hibernate调试——定位查询源头](http://www.importnew.com/12303.html) <br />
+[Open Session In View Design Tradeoffs](http://blog.jhades.org/open-session-in-view-pattern-pros-and-cons/) <br />
+[Pitfalls of the Hibernate Second-Level / Query Caches](http://blog.jhades.org/setup-and-gotchas-of-the-hibernate-second-level-and-query-caches/) <br />
+[Hibernate query cache considered harmful?](http://tech.puredanger.com/2009/07/10/hibernate-query-cache/) <br />

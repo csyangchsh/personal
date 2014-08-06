@@ -128,3 +128,5 @@ Improving the performance of the Spring-Petclinic sample application [1](http://
 [性能优化攻略](http://coolshell.cn/articles/7490.html) <br />
 [面向程序员的数据库访问性能优化法则](http://blog.csdn.net/yzsind/article/details/6059209) <br />
 [Spring/Hibernate应用性能调优](http://www.importnew.com/12314.html) <br />
+[高性能服务器架构](http://blog.csdn.net/zhoudaxia/article/details/14223755) <br/>
+[加速你的Hibernate引擎](http://www.infoq.com/cn/articles/hibernate_tuning)<br />

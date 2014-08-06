@@ -7,6 +7,7 @@
 * [常用的Hotspot JVM Options](jvm_options.md)
 * [性能监控基本概念](性能监控基础.md)
 * [理解Hotspot JVM GC Log](understanding_jvm_gc_log.md)
+* [JVM OOM](JVM_OOM_Errors.md)
 * Better code
 	* [String](better_code_-_string.md)
 	* [Arraylist](arraylist.md)
@@ -23,7 +24,7 @@
 * [Lock](sql_server_锁.md)
 * [查询计划](sql_sever查询计划)
 
-##试验环境
+##实验环境
 
 Mac OS X 10.10, 8GM RAM <br />
 java version "1.7.0_60" <br />

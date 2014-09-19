@@ -1,31 +1,40 @@
 #我的JVM和Performance学习相关记录
 
-## Java
+##~~资料和博客资源~~
+* ~~[阅读资料（包括书籍和文章）](java_readings.md)~~
+* ~~[应用开发阅读资料](readings_of_app_development.md)~~
+* ~~[Database](db/database_readings.md)~~
 
-* [阅读资料（包括书籍和文章）](java_readings.md)
-* [Hotspot JVM垃圾收集器](jvm_collectors.md)
-* [常用的Hotspot JVM Options](jvm_options.md)
-* [性能监控基本概念](性能监控基础.md)
-* [理解Hotspot JVM GC Log](understanding_jvm_gc_log.md)
-* [JVM OOM](JVM_OOM_Errors.md)
-* Better code
-	* [String](better_code_-_string.md)
-	* [Arraylist](arraylist.md)
-	
-## App Development
+优秀的书籍和文章会不断出现，不应该整理这个列表。应该学会思考，举一反三，不断实践。
 
-* [应用开发阅读资料](readings_of_app_development.md)
-* [Hibernate note](hibernate_note.md)
-	
-## SQL Server
-
-* [Health check](sql_server_health_check.md)
+##SQL Server
 * [Transaction](sql_server_事务.md)
 * [Lock](sql_server_锁.md)
 * [查询计划](sql_sever查询计划)
 
-##实验环境
+##编写高质量Java代码
+* [String](better_code_-_string.md)
+* [Arraylist](arraylist.md)
 
+##应用架构
+* [DDD](ddd_architecture.md)
+* Session管理（TODO session filter, session存储, stateless）
+
+##JVM
+* [性能监控基本概念](性能监控基础.md)
+* [Hotspot JVM垃圾收集器](jvm_collectors.md)
+* [常用的Hotspot JVM Options](jvm_options.md)
+* [理解Hotspot JVM GC Log](understanding_jvm_gc_log.md)
+* [JVM OOM](JVM_OOM_Errors.md)
+
+### 应用服务器
+
+参见WildFly repo
+	
+##数据库设计和Hibernate/JPA
+* [Hibernate note](hibernate_note.md)
+
+##实验环境
 Mac OS X 10.10, 8GM RAM <br />
 java version "1.7.0_60" <br />
 Java(TM) SE Runtime Environment (build 1.7.0_60-b19) <br />

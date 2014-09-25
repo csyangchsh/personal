@@ -5,8 +5,6 @@
 * ~~[应用开发阅读资料](readings_of_app_development.md)~~
 * ~~[Database](db/database_readings.md)~~
 
-优秀的书籍和文章会不断出现，不应该整理这个列表。应该学会思考，举一反三，不断实践。
-
 ##SQL Server
 * [Transaction](sql_server_事务.md)
 * [Lock](sql_server_锁.md)
@@ -32,6 +30,7 @@
 参见WildFly repo
 	
 ##数据库设计和Hibernate/JPA
+* [JPA Mapping基本概念](jpa_mappings.md)
 * [Hibernate note](hibernate_note.md)
 
 ##实验环境

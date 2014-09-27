@@ -31,7 +31,9 @@
 	
 ##数据库设计和Hibernate/JPA
 * [JPA Mapping基本概念](jpa_mappings.md)
-* [Hibernate note](hibernate_note.md)
+* [JPA集合映射最佳实践](jpa_collection_bp.md)
+* [Hibernate 缓存](hibernate_note.md)
+* [Tips](jpa_tips.md)
 
 ##实验环境
 Mac OS X 10.10, 8GM RAM <br />

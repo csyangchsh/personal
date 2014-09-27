@@ -110,11 +110,11 @@ If the second level cache contains data for a given Id, it re-hydrates the entit
 
 #### 陷阱
 
-##### 二级缓存miss可能会导致更多数据库查询
+* 二级缓存miss可能会导致更多数据库查询；如果不开启二级缓存，开启Query cache也是类似。会对每个ID产生一条查询语句。
 
-##### Cache limitations when used in conjunction with `@Inheritance`
+* Cache limitations when used in conjunction with `@Inheritance`
 
-##### Cache settings get ignored when using a singleton based cache
+* Cache settings get ignored when using a singleton based cache
 
 ----
 ## Reference

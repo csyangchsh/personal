@@ -20,7 +20,34 @@ Cascade settings are unidirectional. This means that they must be explicitly set
 
 * 对于eager fetching的集合，默认使用的是select fetch。测试使用join fetch是否能提高性能。
 
+* Extra Lazy Fetching
+
+```
+Customer.java
+@OneToMany(cascade=CascadeType.ALL, fetch = FetchType.LAZY)
+@LazyCollection(LazyCollectionOption.EXTRA)
+@IndexColumn(name = "order_index")
+private List<Order> orders = new ArrayList<Order>();
+```
+JSP
+
+```
+<c:forEach items="${customers}" var="customer">
+    <c:set var="lastOrderIndex" value="${fn:length(customer.orders) - 1}"/>
+    <tr>
+        <td><c:out value="${customer.name}" /></td>
+        <td><fmt:formatNumber value="${customer.orders[lastOrderIndex].amount}" maxFractionDigits="2" type="currency" currencySymbol="$"/></td>
+        <td><fmt:formatDate value="${customer.orders[lastOrderIndex].date}"/></td>
+        <td><c:out value="${customer.orders[lastOrderIndex].paymentMethod.name}"/></td>
+    </tr>
+</c:forEach>
+```
+
+	1. Customer.getOrders() not fetching the Orders
+	2. Customer.getOrders().size() issues a COUNT query
+	3. Customer.getOrders().get(index) loads the specific Entity
 
 ###Links
 
-http://www.javacodegeeks.com/2011/02/hibernate-mapped-collections.html
+http://www.javacodegeeks.com/2011/02/hibernate-mapped-collections.html<br />
+https://github.com/BrunoChauvet/orm-anti-patterns

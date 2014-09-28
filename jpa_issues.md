@@ -80,6 +80,18 @@ public List<Customer> findAllCustomers() {
     <url-pattern>/*</url-pattern>
 </filter-mapping>
 ```
+The advantages of this is that you avoid session-related errors:
+
+1. The session lifecycle is uniform for every request.
+2. Hibernate objects remain "alive" for the whole request, thus you can still retrieve lazily-loaded data.
+
+The disadvantages are:
+
+1. Each request monopolises a database connection from the moment a request comes in, to the last byte sent to the client.
+2. Each session will end up associated with every object that is loaded for the duration of the request.
+3. Developers are often caught out by the way sessions behave when threads haven't come in through the web tier (i.e. Quartz jobs)
+
+(https://developer.atlassian.com/display/CONFDEV/Hibernate+Sessions+and+Transaction+Management+Guidelines)
 
 ###N+1
 

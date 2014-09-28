@@ -1,64 +1,5 @@
 # Hibernate Note
 
-## Fetching Strategies
-
-* When (Timing)
-* How (style)
-
-### Fetching timing:
-
-#### Eager
-
-* Immediate
-* Enormous amount of unnecessary fetches for deep association tree
-
-#### Lazy
-
-* Fetched when first accessed
-* Collections
-	* LAZY by default
-	* Utilizes Hibernate's internal concept of "persistent collections"
-* Single attribute
-	* Requires bytecode enhancement
-	* Not typically used nor beneficial
-* Single (ToOne) associations
-	* Fetched when accessed
-	* Proxy		* Default		* Fetched when accessed (except ID) 		* Handled internally by Hibernate	* No-proxy		* Fetched when accessed (including ID)		* No visible proxy		* Requires buildtime bytecode enhancement
-
-#### Extra Lazy
-
-* Collections only* Fetch individual elements as accessed
-* Does not fetch entire collection
-
-### Fetching style:
-
-#### Join
-
-* Join fetch (left/outer join)* Great for ToOne associations* Multiple collection joins	* Possible for non-bags	* Warning: Cartesian product! SELECT is normally faster
-
-#### Select
-
-* Follow-up selects
-* Default style for collections (avoid cartesian product)
-* Can result in 1+N selects (fetch per collection entry)
-
-#### Batch
-
-* Fetches multiple entries when one is accessed
-* Simple select and list of keys
-* Determines # of entries to fetch, based on # of provided keys
-* Legacy - pre-determined sizes, rounded down
-* Padded - same as Legacy, size rounded up
-* Dynamic - build SQL for the # of keys, limited by "batch-size"
-
-#### SUBSELECT
-
-* Follow-up select
-* Fetches all collection entries when accessed for the 1st time
-* Original root entry select used as subselect
-* Performance depends on the DB itself
-
-----
 ## Cache
 Hibernate中有三种缓存：
 

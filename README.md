@@ -32,6 +32,7 @@
 ##数据库设计和Hibernate/JPA
 * [JPA Mapping基本概念](jpa_mappings.md)
 * [JPA集合映射最佳实践](jpa_collection_bp.md)
+* [Hibernate Fetch Strategies](hibernate_fetching_strategies.md)
 * [Hibernate 缓存](hibernate_note.md)
 * [JPA常见问题](jpa_issues.md)
 * [Tips](jpa_tips.md)

@@ -11,3 +11,6 @@ $GOROOT $GOBIN $GOPATH
 main.main()
 
 模块化，重用
+
+## Interface
+

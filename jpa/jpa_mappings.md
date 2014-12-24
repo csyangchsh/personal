@@ -21,7 +21,7 @@ public class Employee {
     // ...
 }
 ```
-####使用Join cloumn
+####使用Join column
 
 ![](img/many_one_fk.png)
 
